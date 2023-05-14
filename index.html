@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" style="--plyr-color-main: #3399ff">
+<html lang="es" style="--plyr-color-main: #3399ff">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -23,15 +23,7 @@
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:image:src"
     content="https://storage.googleapis.com/mixo-files/uploads/aiLaw-1682242745449.png">
-  <meta property="generator" content="îles">
   <link rel="stylesheet" href="./index_files/style-465b8d72.css">
-
-  <link rel="modulepreload" href="./index_files/js/iles.54b00b61.js" crossorigin="">
-  <link rel="modulepreload" href="./index_files/js/vendor-vue.398eccbf.js" crossorigin="">
-  <link rel="modulepreload" href="./index_files/js/SignupForm.a7f764b8.js" crossorigin="">
-  <link rel="modulepreload" href="./index_files/js/UiButton.cab407b3.js" crossorigin="">
-  <link rel="modulepreload" href="./index_files/js/vite.c27b6911.js" crossorigin="">
-  <link rel="modulepreload" href="./index_files/js/ScriptLoader.5b0e7281.js" crossorigin="">
   <script defer="" referrerpolicy="origin" src="./index_files/s.js"></script>
   <script
     nonce="cfd8c6d7-f3dc-44ed-8b23-c84558d44401">(function (w, d) { !function (f, g, h, i) { f[h] = f[h] || {}; f[h].executed = []; f.zaraz = { deferred: [], listeners: [] }; f.zaraz.q = []; f.zaraz._f = function (j) { return function () { var k = Array.prototype.slice.call(arguments); f.zaraz.q.push({ m: j, a: k }) } }; for (const l of ["track", "set", "debug"]) f.zaraz[l] = f.zaraz._f(l); f.zaraz.init = () => { var m = g.getElementsByTagName(i)[0], n = g.createElement(i), o = g.getElementsByTagName("title")[0]; o && (f[h].t = g.getElementsByTagName("title")[0].text); f[h].x = Math.random(); f[h].w = f.screen.width; f[h].h = f.screen.height; f[h].j = f.innerHeight; f[h].e = f.innerWidth; f[h].l = f.location.href; f[h].r = g.referrer; f[h].k = f.screen.colorDepth; f[h].n = g.characterSet; f[h].o = (new Date).getTimezoneOffset(); if (f.dataLayer) for (const s of Object.entries(Object.entries(dataLayer).reduce(((t, u) => ({ ...t[1], ...u[1] }))))) zaraz.set(s[0], s[1], { scope: "page" }); f[h].q = []; for (; f.zaraz.q.length;) { const v = f.zaraz.q.shift(); f[h].q.push(v) } n.defer = !0; for (const w of [localStorage, sessionStorage]) Object.keys(w || {}).filter((y => y.startsWith("_zaraz_"))).forEach((x => { try { f[h]["z_" + x.slice(7)] = JSON.parse(w.getItem(x)) } catch { f[h]["z_" + x.slice(7)] = w.getItem(x) } })); n.referrerPolicy = "origin"; n.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(f[h]))); m.parentNode.insertBefore(n, m) };["complete", "interactive"].includes(g.readyState) ? zaraz.init() : f.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
@@ -40,7 +32,7 @@
       scroll-behavior: smooth !important;
     }
   </style>
-  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+  <!-- <script src="https://js.hcaptcha.com/1/api.js" async defer></script> -->
   </head>
 
 <body>
@@ -284,13 +276,13 @@
                       data-v-77b1cd82="">.</span>
                   </h2>
                 </div>
-                <div class="mt-6 sm:mt-12 sm:mx-auto sm:max-w-lg flex flex-col items-center" data-v-77b1cd82=""></div>
-                <ile-root id="ile-3" class="mt-6 sm:mt-12 sm:mx-auto sm:max-w-lg" data-v-app="" hydrated="">
+                <div class="mt-6 sm:mt-12 sm:mx-auto sm:max-w-lg flex flex-col items-center" data-v-77b1cd82=""></div>                
                   <form name="contact" method="POST" class="grid gap-2 grid-cols-1 sm:w-full sm:flex sm:items-center sm:flex-wrap mt-6 sm:mt-12 sm:mx-auto sm:max-w-lg" style="flex-direction: column" data-netlify="true">
                     <!-- <input type="hidden" name="form-name" value="contact"> -->
                     <label for="cta-nombre" class="sr-only"></label>
-                    <input name="nombre" id="cta-nombre" type="text" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md shadow-sm focus:border-primary focus:ring-primary focus-visible:ring-primary flex-1"
-                    required="" placeholder="Tu nombre">
+                    <input name="nombre" id="cta-nombre" type="text"
+                      class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md shadow-sm focus:border-primary focus:ring-primary focus-visible:ring-primary flex-1"
+                      required="" placeholder="Tu nombre">
                     <label for="cta-email" class="sr-only"></label>
                     <input name="email" id="cta-email" type="email"
                       class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md shadow-sm focus:border-primary focus:ring-primary focus-visible:ring-primary flex-1"
@@ -300,7 +292,7 @@
                       class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-gray-300 rounded-md shadow-sm focus:border-primary focus:ring-primary focus-visible:ring-primary flex-1"
                       required="" placeholder="Tu mensaje"></textarea>
                     <div class="mt-2">
-                      <input type="checkbox" class="w-4 h-4 text-primary border border-gray-300 rounded focus:ring-primary" required="">
+                      <input name="consentimiento" type="checkbox" class="w-4 h-4 text-primary border border-gray-300 rounded focus:ring-primary" required="">
                       <span class="text-sm text-gray-400" style="margin-left: 1rem;">Acepto la <a href="./politica-privacidad.html" class="text-primary">política de privacidad</a></span>
                     </div>
                     <!-- <div class="h-captcha" data-sitekey="d5c52578-a0db-4312-9998-75d1eb9632b4"></div> -->
@@ -308,10 +300,6 @@
                       <button class="mt-6 ui-button ui-button-base ui-button-primary" type="submit">Enviar</button>
                     </div>
                   </form>
-                </ile-root>
-                <script></script>
-                <script type="module" async="">import { h as m, c as t } from "/site/ai-law-k1mjc/assets/iles.54b00b61.js"; import { c as e } from "/site/ai-law-k1mjc/assets/SignupForm.a7f764b8.js"; import "/site/ai-law-k1mjc/assets/vendor-vue.398eccbf.js"; import "/site/ai-law-k1mjc/assets/UiButton.cab407b3.js"; import "/site/ai-law-k1mjc/assets/vite.c27b6911.js"; m(t, e, "ile-3", { name: "cta", placeholder: "Este formulario debe ser más extenso", buttonLabel: "Submit", siteId: "VipD5x11G5dcTuQ3X38b", class: "mt-6 sm:mt-12 sm:mx-auto sm:max-w-lg" }, {});
-                </script>
               </div>
             </div>
           </div>
@@ -338,10 +326,7 @@
         <p class="sm:text-center text-xs leading-5 text-gray-500">© 2023. Derechos reservados</p>
       </div>
     </footer>
-    <ile-root id="ile-2" data-v-app="" hydrated=""><!--v-if--><!--v-if--><!--v-if--><!--v-if--></ile-root>
     <script></script>
-    <!-- desactivas -->
-    <script type="module" async="">import { h as o, c as s } from "/site/ai-law-k1mjc/assets/iles.54b00b61.js"; import { _ as t } from "/site/ai-law-k1mjc/assets/ScriptLoader.5b0e7281.js"; import "/site/ai-law-k1mjc/assets/vendor-vue.398eccbf.js"; import "/site/ai-law-k1mjc/assets/UiButton.cab407b3.js"; import "/site/ai-law-k1mjc/assets/vite.c27b6911.js"; o(s, t, "ile-2", function (e, i) { return { siteConfig: { hideSiteName: e, removeBranding: e, siteDescription: "Revolutionizing Law: Your AI-Assisted Law Firm. Experience the future of law with our AI-powered legal services", siteIcon: "https://storage.googleapis.com/mixo-files/logos/aiLaw-1682242744537.svg", siteLogoSize: "xl", siteLogoUrl: "https://storage.googleapis.com/mixo-sites/images/file-9d3d1de4-d7b0-4f70-ab4f-8cb6e210e38c.png", siteName: "Garcia Salinas", siteSocialImageUrl: "https://storage.googleapis.com/mixo-files/uploads/aiLaw-1682242745449.png", siteTitle: "García&Salinas | Despacho de abogados", theme: { primaryColor: "#3399ff", secondaryColor: "#42545c" }, siteUrl: i }, siteUrl: i } }(!0, "https://www.mixo.io/site/ai-law-k1mjc"), {});
     </script>
   </div>
 
